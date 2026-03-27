@@ -21,6 +21,14 @@ console.log(list.toString());
 // ( fish ) -> ( dog ) -> ( cat ) -> null
 ```
 
+## Running
+
+```bash
+node main.js
+```
+
+> Requires Node.js with ES module support. Make sure to use `.js` extensions in all import paths.
+
 ## API
 
 ### `append(value)`
@@ -125,11 +133,3 @@ Removes the node at the given `index`. Throws a `RangeError` if the index is out
 list.removeAt(1); // removes 'parrot'
 // ( cat ) -> ( hamster ) -> ( dog ) -> null
 ```
-
-## Running
-
-```bash
-node main.js
-```
-
-> Requires Node.js with ES module support. Make sure to use `.js` extensions in all import paths.
